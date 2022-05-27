@@ -34,7 +34,7 @@ Sub_info = script-name=Sub_info,update-interval=86400
   let total = info.total;
   let expire = args.expire || info.expire;
   let proportion = used / total;
-  let content = [`𝐔𝐬𝐞𝐝 : ${toPercent(proportion)} | 𝐀𝐯𝐥 : ${bytesToSize(total-used)}`];
+  let content = [`𝑼𝒔𝒆𝒅 : ${toPercent(proportion)} | 𝑨𝒗𝒍 : ${bytesToSize(total-used)}`];
 
 
   if (resetDayLeft) {
@@ -53,7 +53,7 @@ Sub_info = script-name=Sub_info,update-interval=86400
   minutes = minutes > 9 ? minutes : "0" + minutes;
 
   $done({
-    title: `${args.title} ` + `| 𝐑𝐞𝐬𝐞𝐭 : ` + `${resetDayLeft} Days`,
+    title: `${args.title} ` + `| 𝑹𝒆𝒔𝒆𝒕 : ` + `${resetDayLeft} 𝑫𝒂𝒚𝒔 `,
     content: content.join("\n"),
     icon: args.icon || "airplane.circle",
     "icon-color": args.color || "#007aff",
