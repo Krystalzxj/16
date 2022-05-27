@@ -38,7 +38,7 @@ Sub_info = script-name=Sub_info,update-interval=86400
 
 
   if (resetDayLeft) {
-    content.push(`𝑹𝒆𝒔𝒆𝒕 𝒕𝒉𝒆 𝒓𝒆𝒎𝒂𝒊𝒏𝒊𝒏𝒈：🧜🏻‍♀️: ➺ ${resetDayLeft}天`);
+    content.push(`𝑹𝒆𝒎𝒂𝒊𝒏𝒊𝒏𝒈 𝑫𝒂𝒚𝒔：🧜🏻‍♀️: ➺ ${Remaining Days}天`);
   }
 
   if (expire) {
